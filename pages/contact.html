@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact</title>
+
+        <link rel="stylesheet" href="../styles/contact.css">
+    </head>
+
+    <body>
+        <label>
+            <h3>The Data Refinery</h3>
+        </label>
+
+        <nav class="nav-container">
+            <div class="logo">
+                <img id="backBTN" src="../assets/logo.png" alt="Logo">
+            </div>
+            
+            <a id="homeBTN" class="nav-item">About</a>
+            <a id="techBTN" class="nav-item">Tech Stack</a>
+            <a class="nav-item">Contact</a>
+            <a class="nav-item">FAQs</a>
+            <a id="engineerBTN" class="nav-item" target="_blank">Engineer</a>
+        </nav>
+        
+        <div class="contact-desc">
+            <h1>Contact Us</h1>
+            
+            <div class="Contact-Box">
+                <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+                    
+                    <input type="hidden" name="access_key" value="e225b31b-2080-49d7-8f95-2a5fc8afefda">
+              
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+              
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+              
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message" required></textarea>
+                    </div>
+              
+                    <button type="submit" class="submit-btn" id="submitBTN">Send Message</button>
+                </form>
+            </div>
+        </div>
+
+        <script src="../scripts/contacts.js"></script>
+    </body>
+</html>
