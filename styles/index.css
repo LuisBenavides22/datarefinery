@@ -215,3 +215,54 @@ label h3 {
     box-shadow: 0 10px 40px #ffffff;
 
 }
+
+.light-mode {
+    background: linear-gradient(lightblue,blue);
+}
+
+.light-mode .nav-container {
+    background: linear-gradient(rgb(19, 101, 201),rgb(202, 202, 217));
+}
+
+.light-mode .nav-item {
+    background: radial-gradient(rgb(28, 107, 233),rgb(22, 106, 185));
+}
+
+.light-mode .displayBTN {
+    background: linear-gradient(rgb(0, 110, 255),rgb(84, 176, 247));
+}
+
+.light-mode .desc-container {
+    background: linear-gradient(135deg, #062d87, #225ef3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.light-mode .description {
+    background: linear-gradient(135deg, #062d87, #225ef3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.light-mode .card {
+    background: linear-gradient(white,rgb(255, 255, 255),rgb(0, 94, 255));
+}
+
+.light-mode .card-button {
+    background: linear-gradient(rgb(3, 106, 250),rgb(61, 146, 238));
+}
+
+.light-mode .box {
+    background: rgb(168, 197, 241);
+    box-shadow: 0 10px 50px rgb(0, 0, 255);
+}
+
+.light-mode .card h1 {
+    background: linear-gradient(135deg, #0f6bea, #336dff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.light-mode .WWO-line  {
+    color: rgb(19, 104, 232);
+}

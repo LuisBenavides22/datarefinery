@@ -55,18 +55,20 @@ export function checkIT(element){
 
 // toggle function for light and dark mode
 export function toggle(){
-    let isDark = false;
+    let isLight = false;
 
     displayBTN.onclick = function() {
-        if (isDark){
+        if (!isLight){
+            document.body.classList.add("light-mode");
             displayBTN.textContent = "Light Mode";
-            isDark = false;
         }
         else {
+            document.body.classList.remove("light-mode");
             displayBTN.textContent = "Dark Mode";
-            isDark = true;
+            
         }
-    }
+        isLight = !isLight;
+    };
 }
 
 toggle();
