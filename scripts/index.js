@@ -11,7 +11,7 @@ const displayBTN = document.getElementById("displayBTN");
 const cardBTN = document.getElementById("cardBTN");
 const cardBTN2 = document.getElementById("2ndcardBTN");
 const cardBTN3 = document.getElementById("3rdcardBTN");
-            
+       
 // Boolean to check if button was clicked
 let buttonClicked = false;
 
