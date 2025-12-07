@@ -5,6 +5,8 @@ body {
     display: flex;
 }
 
+
+
 .nav-container {
     padding: 20px;
     background: linear-gradient(rgb(5, 5, 54),rgb(8, 8, 9));
@@ -188,9 +190,9 @@ label h3 {
 .WWO-line {
     width: 450px;
     margin-top: -20px;
-    color: rgb(15, 19, 238);
-    height: 1px;
-    border-radius: 20px;
+    color: rgb(40, 187, 255);
+    height: 3.5px;
+    border-radius: 120px;
     background: rgb(23, 7, 166);
 }
 
@@ -221,11 +223,11 @@ label h3 {
 }
 
 .light-mode .nav-container {
-    background: linear-gradient(rgb(19, 101, 201),rgb(202, 202, 217));
+    background: linear-gradient(rgb(33, 170, 255),rgb(72, 44, 255));
 }
 
 .light-mode .nav-item {
-    background: radial-gradient(rgb(28, 107, 233),rgb(22, 106, 185));
+    background: radial-gradient(rgb(1, 153, 255),rgb(0, 170, 255));
 }
 
 .light-mode .displayBTN {
@@ -264,5 +266,5 @@ label h3 {
 }
 
 .light-mode .WWO-line  {
-    color: rgb(19, 104, 232);
+    background: #0645b1;
 }
