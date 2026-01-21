@@ -1,0 +1,49 @@
+body {
+    background: linear-gradient(rgb(2, 12, 37), rgb(21, 8, 137));
+    min-height: 100vh;
+    margin: 0;         
+    padding: 10;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    font-family: system-ui;
+}
+
+.card {
+    padding: 20px;
+    width: 400px;
+    height: 500px;
+    border: 2px solid white;
+    background: linear-gradient(white,blue);
+    border-radius: 20px;
+    box-shadow: 0 10px 40px white;
+}
+
+.login-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui;
+    background: linear-gradient(135deg, #08ceff, #073fcc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.05em;
+}
+
+.input-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.input-container input {
+    width: 325px;
+    height: 35px;
+    border-radius: 20px;
+    border: rgb(0, 0, 0);
+}

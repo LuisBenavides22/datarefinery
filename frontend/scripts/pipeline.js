@@ -1,23 +1,20 @@
-
-// Buttons
-const engineerBTN = document.getElementById("engineerBTN");
-const contactBTN = document.getElementById("contactBTN");
 const backBTN = document.getElementById("backBTN");
-const homeBTN = document.getElementById("homeBTN");
 const techBTN = document.getElementById("techBTN");
+const contactBTN = document.getElementById("contactBTN");
+const engineerBTN = document.getElementById("engineerBTN");
+const displayBTN = document.getElementById("displayBTN");
+const aboutBTN = document.getElementById("aboutBTN");
 
-// Function that goes to other page
-function nextPage(element, url){
+export function nextPage(element, url) {
     setTimeout(() => {
         element.addEventListener("click", () => {
             window.location.href = url;
         });
-    }, 500)
+    }, 500);
 }
 
-// Function calls with button and page url
+nextPage(aboutBTN, "../../index.html");
 nextPage(engineerBTN, "https://luisbenavides22.github.io/Portfolio/");
 nextPage(contactBTN, "contact.html");
-nextPage(backBTN, "../index.html");
-nextPage(homeBTN, "../index.html");
+nextPage(backBTN, "../../index.html");
 nextPage(techBTN, "techstack.html");

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Descriptive Report</title>
+        <link rel="stylesheet" href="../styles/desc.css">
+        <link rel="icon" href="../assets/logo.png" type="image/png">
+    </head>
+
+    <body>
+        <nav class="nav-container2"></nav>
+
+        <nav class="nav-container">
+            <div class="logo">
+                <img id="backBTN" src="../assets/logo.png" />
+            </div>
+    
+            <label class="title">
+                <h3>The Data Refinery</h3>
+            </label>
+    
+            <a id="homeBTN" class="nav-item">About</a>
+            <a id="techBTN" class="nav-item">Tech Stack</a>
+            <a id="contactBTN" class="nav-item">Contact</a>
+            <a class="nav-item">FAQs</a>
+            <a id="engineerBTN" class="nav-item" target="_blank">Engineer</a>
+            <a id="displayBTN" class="displayBTN">Light Mode</a>
+        </nav>
+
+        <div class="desc-container">
+            <h1>Descriptive Statistics</h1>
+            <p>Get detailed insights about your data with automated statistical analysis.</p>
+        </div>
+
+        <div class="desc-stats">
+            <div class="stat-card">
+                <h3>Mean</h3>
+                <p id="meanValue">-</p>
+            </div>
+            <div class="stat-card">
+                <h3>Median</h3>
+                <p id="medianValue">-</p>
+            </div>
+            <div class="stat-card">
+                <h3>Mode</h3>
+                <p id="modeValue">-</p>
+            </div>
+            <div class="stat-card">
+                <h3>Std Dev</h3>
+                <p id="stdValue">-</p>
+            </div>
+        </div>
+
+        <div class="charts-container">
+            <div class="chart">
+                <h3>Histogram</h3>
+                <canvas id="histogram"></canvas>
+            </div>
+            <div class="chart">
+                <h3>Box Plot</h3>
+                <canvas id="boxplot"></canvas>
+            </div>
+        </div>
+
+        <br><br>
+
+        <div class="after-box">
+            <div class="after-box-content">
+                <div class="after-box-logo">
+                    <img src="../assets/logo.png">
+                    <div class="data-refinery">
+                        <h2>The Data Refinery</h2>
+                    </div>
+                </div>
+    
+                <div class="product">
+                    <h2>Product</h2>
+                    <p>Explore</p>
+                    <p>Services</p>
+                    <p id="technologyBTN">Technologies</p>
+                </div>
+        
+                <div class="support">
+                    <h2>Support</h2>
+                    <p>Contact</p>
+                    <p id="afterENGBTN">Engineer</p>
+                    <p>Feedback</p>
+                </div>
+        
+                <div class="use-cases">
+                    <h2>Use Cases</h2>
+                    <p>ETL Pipeline</p>
+                    <p>Data Visualization</p>
+                    <p>Descriptive Statistics</p>
+                </div>
+            </div>
+    
+            <hr class="after-box-line">
+            <footer>
+                <p>&copy; 2025 Data Refinery.</p>
+            </footer>
+        </div>
+
+        <script src="../scripts/desc.js"></script>
+    </body>
+</html>

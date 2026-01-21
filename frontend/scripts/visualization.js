@@ -5,6 +5,7 @@ const backBTN = document.getElementById("backBTN");
 const homeBTN = document.getElementById("homeBTN");
 const techBTN = document.getElementById("techBTN");
 const displayBTN = document.getElementById("displayBTN");
+const displayBTN2 = document.getElementById("displayBTN"); // optional duplicate reference
 
 // Tool Description Variables
 const image = document.getElementById("image");
@@ -54,7 +55,6 @@ let arr = [
 
 // Updates the displayed tool name, image, and description based on currentIndex
 export function display(){
-    
     tool.textContent = arr[currentIndex].name;
     image.src = arr[currentIndex].img;
     description1.textContent = arr[currentIndex].description;
@@ -83,23 +83,6 @@ export function nextPage(element, url){
             window.location.href = url;
         });
     }, 500)
-}
-
-// Toggles between dark mode (default) and light mode
-export function toggle(){
-    let isLight = false;
-
-    displayBTN.onclick = function() {
-        if (!isLight){
-            document.body.classList.add("light-mode");
-            displayBTN.textContent = "Light Mode";
-        }
-        else {
-            document.body.classList.remove("light-mode");
-            displayBTN.textContent = "Dark Mode";
-        }
-        isLight = !isLight;
-    };
 }
 
 // Initialize tool navigation and theme toggle
