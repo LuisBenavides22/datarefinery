@@ -1,5 +1,9 @@
 html, body {
-    background: linear-gradient(rgb(2, 12, 37), rgb(21, 8, 137));
+    background: 
+        linear-gradient(rgba(0, 255, 255, 0.1) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 255, 255, 0.1) 1px, transparent 1px),
+        linear-gradient(rgb(2, 12, 37), rgb(21, 8, 137));
+    background-size: 50px 50px, 50px 50px, 100% 100%;
     flex-direction: column;
     min-height: 190vh;
     display: flex;

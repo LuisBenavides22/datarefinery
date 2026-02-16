@@ -1,13 +1,16 @@
 /* ================= BASE STYLES ================= */
-html, body {
-    background: linear-gradient(rgb(2, 12, 37), rgb(21, 8, 137));
+body {
+    background: linear-gradient(rgb(16, 61, 165) 1px, transparent 1px),
+                linear-gradient(90deg, rgb(17, 17, 119) 1px, transparent 1px),
+                linear-gradient(rgb(2, 12, 37), rgb(21, 8, 137));
+    background-size: 50px 50px, 50px 50px ,100% 100%;
     flex-direction: column;
     min-height: 155vh;
     display: flex;
     margin: 0;
     padding: 10;
     width: 100%;
-    box-sizing: border-box;
+    
 }
 
 /* ================= NAVIGATION ================= */
